@@ -1,0 +1,22 @@
+body {
+	background-color: #ffd390
+}
+#napoleon {
+	width: 855;
+	height: 1113;
+}
+h1{
+	text-align: center;
+}
+div {
+	width: 100%;
+	float: left;
+	margin-left:+205px;
+	position:relative;
+	top:100px;
+}
+#wroc {
+	float: left;
+	margin-left:+535px;
+	position:relative;
+}

@@ -1,0 +1,78 @@
+body {
+	background: #ffd390;
+}
+
+/*DIV GALERIA*/
+#galeria {
+	width:890px; 
+	margin:0 auto;
+	position:relative;
+	text-align:center;
+	font-family:Verdana, Arial, sans-serif;
+}
+
+/* BOX ZE ZDJĘCIAMI */
+#galeria .zdjecia {
+	background:#dead61 top left repeat-y;
+	width:100%;
+	padding-left:10px;
+	position:relative;
+}
+.zdjecia_pokaz img {
+	height:350px;
+	width:878px;
+}
+/* TYTUŁY ZDJĘĆ */
+#galeria .zdjecia .info {
+	height:20px;
+	width:100%;
+	font-family: Arial, sans-serif;
+	font-size:1.05em;
+	letter-spacing:0.36em;
+	color:#454545;
+	padding:15px;
+	text-align:center;
+} 
+/* PRZYCISKI < I >*/
+#galeria .prev {
+	background:url(img/prev.png) top left no-repeat;
+	height:100px;
+	width:100px;
+	position:absolute;
+	left:-100px;
+	top:175px;   
+}
+#galeria .next {
+	background:url(img/next.png) top left no-repeat;
+	height:100px;
+	width:100px;
+	position:absolute;
+	right:-100px;
+	top:175px;   
+}
+#galeria .prev:hover {
+	background:url(img/prevh.png) top left no-repeat; 
+}
+#galeria .next:hover {
+	background:url(img/nexth.png) top left no-repeat; 
+}
+#galeria .dol {
+	background:#d67829 top left no-repeat;
+	height:125px;
+	width:100%;
+	padding-top:35px;
+	text-align:center;
+	font-family:Verdana, Arial, sans-serif;
+	font-size:1.3em;
+	color:#767586;
+}
+.wroc   {
+	background:url(img/chata.jpg) top left no-repeat;
+	height:102px;
+	width:164px;
+	position:fixed;
+	right:-100px;
+	top:575px;  
+	text-decoration: none;
+}
+
